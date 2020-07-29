@@ -73,7 +73,7 @@ def main():
         
     receiver = "alexbissessur@gmail.com"
     body = BODY
-    yag = yagmail.SMTP("baichoo04@gmail.com","delafaye6942")
+    yag = yagmail.SMTP("email address","password")
     yag.send(
         to=receiver,
         subject="Some Of Your Skins Are Below/Above The Specified Threshold!",
